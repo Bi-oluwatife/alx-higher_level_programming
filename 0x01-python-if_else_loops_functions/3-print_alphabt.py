@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for i in range(26):
-    if (i != 16 and i != 4):
-        print("{:c}" .format(ord("a")+i), end='')
+for i in range (97, 123):
+    if chr(i) is not "q" or "e":
+        print("{}".format(chr(i)), end="")
